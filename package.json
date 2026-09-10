@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "compile": "solcjs --bin --abi contracts/MallocCompanion.sol -o build",
+    "deploy:robinhood": "node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "solc": "^0.8.30"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
